@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { HeaderModule } from './modules/header/header.module';
+import { EvolvusLoginModule } from './modules/login/login.module';
 
 
 @NgModule({
@@ -12,7 +12,7 @@ import { HeaderModule } from './modules/header/header.module';
   ],
   imports: [
     BrowserModule,
-    HeaderModule
+    EvolvusLoginModule
   ],
   providers: [],
   bootstrap: [AppComponent]

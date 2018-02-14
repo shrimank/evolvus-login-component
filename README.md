@@ -4,6 +4,17 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Usage
  `npm install --save evolvus-login-component`
+ `npm install --save bootstrap@3`
+ 
+ and update .angular-cli.json file
+ `
+ "styles": [
+        "styles.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+      ],
+ `
+ 
+ 
  Then Import `EvolvusLoginModule` to your AppModule then in your HTML file
  
  use `<app-login  [title]="'Example'" (onLogin)="yourOwnMethod($event)"></app-login>`
